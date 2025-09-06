@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha - Omega : Personnalisez votre photo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Alpha - Omega</h1>
+        <p>Partagez votre présence ! Téléchargez votre photo pour la personnaliser.</p>
+        
+        <input type="file" id="photo-input" accept="image/*">
+        
+        <canvas id="canvas"></canvas>
+        
+        <a id="download-link" download="alpha-omega-photo.png" style="display: none;">
+            <button>Télécharger ma photo</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
